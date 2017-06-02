@@ -11,6 +11,17 @@
     }
   },
   {
+    "fluidName": "water",
+    "input": {
+      "name": "minecraft:milk_bucket",
+      "meta": 0
+    },
+    "output": {
+      "name": "tconstruct:slime_congealed",
+      "meta": 0
+    }
+  },
+  {
     "fluidName": "lava",
     "input": {
       "name": "minecraft:redstone",
@@ -35,12 +46,34 @@
   {
     "fluidName": "witchwater",
     "input": {
+      "name": "tconstruct:edible",
+      "meta": 3
+    },
+    "output": {
+      "name": "tconstruct:slime_congealed",
+      "meta": 2
+    }
+  },
+  {
+    "fluidName": "witchwater",
+    "input": {
       "name": "minecraft:sand",
       "meta": 0
     },
     "output": {
       "name": "minecraft:soul_sand",
       "meta": 0
+    }
+  },
+  {
+    "fluidName": "blood",
+    "input": {
+      "name": "minecraft:clay_ball",
+      "meta": 0
+    },
+    "output": {
+      "name": "tconstruct:slime_congealed",
+      "meta": 1
     }
   }
 ]

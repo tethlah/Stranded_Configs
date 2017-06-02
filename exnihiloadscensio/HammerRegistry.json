@@ -1,8 +1,20 @@
 {
-  "minecraft:end_stone:0": [
+  "minecraft:cobblestone:0": [
     {
       "stack": {
-        "name": "exnihiloadscensio:blockEndstoneCrushed",
+        "name": "minecraft:gravel",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:gravel:0": [
+    {
+      "stack": {
+        "name": "minecraft:sand",
         "amount": 1,
         "meta": 0
       },
@@ -35,10 +47,10 @@
       "fortuneChance": 0.0
     }
   ],
-  "minecraft:cobblestone:0": [
+  "minecraft:end_stone:0": [
     {
       "stack": {
-        "name": "minecraft:gravel",
+        "name": "exnihiloadscensio:blockEndstoneCrushed",
         "amount": 1,
         "meta": 0
       },
@@ -47,11 +59,11 @@
       "fortuneChance": 0.0
     }
   ],
-  "minecraft:gravel:0": [
+  "minecraft:prismarine:0": [
     {
       "stack": {
-        "name": "minecraft:sand",
-        "amount": 1,
+        "name": "minecraft:prismarine_shard",
+        "amount": 2,
         "meta": 0
       },
       "miningLevel": 0,
