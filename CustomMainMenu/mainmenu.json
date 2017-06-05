@@ -1,7 +1,7 @@
 {
     "images":
     {
-		"black":
+        "black":
         {
             "image" : "mainmenu:textures/bg_menu.png",
             "posX" : 95,
@@ -10,7 +10,7 @@
             "height" : 1500,
             "alignment" : "top_left"
         },
-		"logo":
+        "logo":
         {
             "image" : "mainmenu:textures/logo.png",
             "posX" : 85,
@@ -19,44 +19,46 @@
             "height" : 230,
             "alignment" : "top_left"
         }
-	
-	},
+    
+    },
     
     "buttons":
     {
-		"singleplayer":
+        "singleplayer":
         {
             "text" : "menu.singleplayer",
-			"normalTextColor" : 16777215,
-			"hoverTextColor" : 12140543,
-			"texture" : "mainmenu:textures/btn.png",
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 2555663,
+            "texture" : "mainmenu:textures/btn.png",
             "posX" : 97,
-            "posY" : 10,
+            "posY" : 0,
             "width" : 196,
             "height" : 30,
-			imageWidth : 100,
-			imageHeight : 50,
-			"alignment" : "left_center",
+            imageWidth : 100,
+            imageHeight : 50,
+            "alignment" : "left_center",
+            "hoverText" : "Antisocial?",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "singleplayer"
             }
-        },		
+        },      
 
-		"multiplayer":
+        "multiplayer":
         {
-            "text" : "menu.multiplayer",			
-			"normalTextColor" : 16777215,
-			"hoverTextColor" : 12140543,
-			"texture" : "mainmenu:textures/btn.png",
+            "text" : "menu.multiplayer",            
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 2555663,
+            "texture" : "mainmenu:textures/btn.png",
             "posX" : 97,
-            "posY" : 40,
+            "posY" : 30,
             "width" : 196,
             "height" : 30,
-			imageWidth : 100,
-			imageHeight : 50,
-			"alignment" : "left_center",
+            imageWidth : 100,
+            imageHeight : 50,
+            "alignment" : "left_center",
+            "hoverText" : "Where's my friends?",
             "action" : 
             {
                 "type" : "openGui",
@@ -64,19 +66,20 @@
             }
         },
                
-		"options":
+        "options":
         {
             "text" : "menu.options",
-			"normalTextColor" : 16777215,
-			"hoverTextColor" : 12140543,
-			"texture" : "mainmenu:textures/btn.png",
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 2555663,
+            "texture" : "mainmenu:textures/btn.png",
             "posX" : 97,
-            "posY" : 70,
+            "posY" : 60,
             "width" : 196,
             "height" : 30,
-			imageWidth : 100,
-			imageHeight : 50,
-			"alignment" : "left_center",
+            imageWidth : 100,
+            imageHeight : 50,
+            "alignment" : "left_center",
+            "hoverText" : "Leads to a borning menu...",
             "action" : 
             {
                 "type" : "openGui",
@@ -87,58 +90,81 @@
         "quit":
         {
             "text" : "menu.quit",
-			"normalTextColor" : 16777215,
-			"hoverTextColor" : 14483456,
-			"texture" : "mainmenu:textures/btn.png",
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 14483456,
+            "texture" : "mainmenu:textures/btn.png",
             "posX" : 97,
-            "posY" : 120,
+            "posY" : 90,
             "width" : 196,
             "height" : 30,
-			imageWidth : 100,
-			imageHeight : 50,
-			"alignment" : "left_center",
-			"hoverText" : "No! Don't leave!",
+            imageWidth : 100,
+            imageHeight : 50,
+            "alignment" : "left_center",
+            "hoverText" : "No! Don't leave!",
             "action" : 
             {
                 "type" : "quit"
             }
         },
-		
+        
         "mods":
         {
             "text" : "Mods (#modsloaded#/#modsactive#)",
-			"normalTextColor" : 16777215,
-			"hoverTextColor" : 12140543,
-			"texture" : "mainmenu:textures/btn.png",
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 2555663,
+            "texture" : "mainmenu:textures/btn.png",
             "posX" : 97,
-            "posY" : 180,
-            "width" : 96,
+            "posY" : 140,
+            "width" : 196,
             "height" : 20,
-			imageWidth : 100,
-			imageHeight : 50,
-			"alignment" : "left_center",
+            imageWidth : 100,
+            imageHeight : 50,
+            "alignment" : "left_center",
+            "hoverText" : "Mods, it's what plants crave.",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "mods"
             }
         },
+
+        "anouncements":
+        {
+            "text" : "web:http://cloud8rp.com/mc/menutxt.html",
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 2555663,
+            "texture" : "mainmenu:textures/btn.png",
+            "posX" : 97,
+            "posY" : 160,
+            "width" : 196,
+            "height" : 40,
+            imageWidth : 100,
+            imageHeight : 50,   
+            "alignment" : "left_center",
+            "hoverText" : "Go to announcements webpage...",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://cloud8rp.com/mc/"
+            }
+        },
+
         "versionChecker":
         {
             "text" : "Version-Checker",
-			"normalTextColor" : 16777215,
-			"hoverTextColor" : 12140543,
-			"texture" : "mainmenu:textures/btn.png",
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 2555663,
+            "texture" : "mainmenu:textures/btn.png",
             "posX" : 193,
             "posY" : 150,
             "width" : 100,
             "height" : 20,
-			imageWidth : 100,
-			imageHeight : 50,			
-			"alignment" : "left_center",
+            imageWidth : 100,
+            imageHeight : 50,           
+            "alignment" : "left_center",
             "wrappedButton" : 404
         }
-	},
+    },
     
     "texts":
     {
@@ -151,7 +177,7 @@
             "alignment" : "bottom_left"
         },
         
-		"packTxt":
+        "packTxt":
         {
             "text" : "AAIII - 0.0.1a",
             "posX" : 2,
@@ -163,11 +189,11 @@
     
     "other":
     {
-		"background":
-		{
-			"image" : "mainmenu:textures/bg.png",
-			"mode" : "fill"
-		}
+        "background":
+        {
+            "image" : "mainmenu:textures/bg.png",
+            "mode" : "fill"
+        }
     }
 }
 
