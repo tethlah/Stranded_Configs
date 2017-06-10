@@ -260,8 +260,8 @@
     },
     {
       "drop": {
-        "name": "agricraft:agri_nugget",
-        "meta": 11
+        "name": "mekanism:Dust",
+        "meta": 2
       },
       "chance": 0.19,
       "meshLevel": 3
@@ -938,8 +938,8 @@
     },
     {
       "drop": {
-        "name": "agricraft:agri_nugget",
-        "meta": 11
+        "name": "mekanism:Dust",
+        "meta": 2
       },
       "chance": 0.19,
       "meshLevel": 3
@@ -1237,8 +1237,8 @@
     },
     {
       "drop": {
-        "name": "agricraft:agri_nugget",
-        "meta": 11
+        "name": "mekanism:Dust",
+        "meta": 2
       },
       "chance": 0.19,
       "meshLevel": 3
