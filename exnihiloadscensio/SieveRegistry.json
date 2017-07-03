@@ -1213,14 +1213,6 @@
     },
     {
       "drop": {
-        "name": "minecraft:diamond",
-        "meta": 0
-      },
-      "chance": 0.01,
-      "meshLevel": 3
-    },
-    {
-      "drop": {
         "name": "bigreactors:dustmetals",
         "meta": 0
       },
@@ -1269,22 +1261,6 @@
     },
     {
       "drop": {
-        "name": "minecraft:diamond",
-        "meta": 0
-      },
-      "chance": 0.03,
-      "meshLevel": 4
-    },
-    {
-      "drop": {
-        "name": "minecraft:emerald",
-        "meta": 0
-      },
-      "chance": 0.01,
-      "meshLevel": 4
-    },
-    {
-      "drop": {
         "name": "minecraft:dye",
         "meta": 4
       },
@@ -1329,6 +1305,30 @@
         "meta": 199
       },
       "chance": 0.02,
+      "meshLevel": 4
+    },
+    {
+      "drop": {
+        "name": "customnpcs:npcRuby",
+        "meta": 0
+      },
+      "chance": 0.05,
+      "meshLevel": 4
+    },
+    {
+      "drop": {
+        "name": "minecraft:emerald",
+        "meta": 0
+      },
+      "chance": 0.03,
+      "meshLevel": 4
+    },
+    {
+      "drop": {
+        "name": "minecraft:diamond",
+        "meta": 0
+      },
+      "chance": 0.01,
       "meshLevel": 4
     }
   ],
