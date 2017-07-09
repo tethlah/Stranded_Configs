@@ -3,6 +3,18 @@
     "fluid": "lava",
     "amount": 250
   },
+  "minecraft:stone:1": {
+    "fluid": "lava",
+    "amount": 250
+  },
+  "minecraft:stone:3": {
+    "fluid": "lava",
+    "amount": 250
+  },
+  "minecraft:stone:5": {
+    "fluid": "lava",
+    "amount": 250
+  },
   "minecraft:leaves:-1": {
     "fluid": "water",
     "amount": 250

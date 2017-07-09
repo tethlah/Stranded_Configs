@@ -11,6 +11,42 @@
       "fortuneChance": 0.0
     }
   ],
+  "minecraft:stone:0": [
+    {
+      "stack": {
+        "name": "minecraft:gravel",
+        "amount": 1,
+        "meta": 1
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:stone:0": [
+    {
+      "stack": {
+        "name": "minecraft:gravel",
+        "amount": 1,
+        "meta": 3
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:stone:0": [
+    {
+      "stack": {
+        "name": "minecraft:gravel",
+        "amount": 1,
+        "meta": 5
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
   "minecraft:gravel:0": [
     {
       "stack": {
