@@ -857,6 +857,19 @@
       "meta": 0
     }
   },
+  "aquaculture:food:1": {
+    "value": 0.15,
+    "color": {
+      "r": 0.42745098,
+      "g": 0.8117647,
+      "b": 0.7019608,
+      "a": 1.0
+    },
+    "compostBlock": {
+      "name": "minecraft:dirt",
+      "meta": 0
+    }
+  },
   "aquaculture:fish:0": {
     "value": 0.15,
     "color": {
