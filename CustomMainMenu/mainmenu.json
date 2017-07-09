@@ -43,7 +43,7 @@
                 "type" : "openGui",
                 "gui" : "singleplayer"
             }
-        },      
+        },
 
         "multiplayer":
         {
@@ -65,6 +65,27 @@
                 "gui" : "multiplayer"
             }
         },
+
+        "strandedSrv":
+        {
+            "text" : "Stranded! Server",            
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 2555663,
+            "texture" : "mainmenu:textures/btn.png",
+            "posX" : 97,
+            "posY" : 40,
+            "width" : 196,
+            "height" : 20,
+            imageWidth : 100,
+            imageHeight : 50,
+            "alignment" : "left_center",
+            "hoverText" : "Join the official Cloud8 server!",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "mc2.cloud8rp.com"
+            }
+        },
                
         "options":
         {
@@ -73,7 +94,7 @@
             "hoverTextColor" : 2555663,
             "texture" : "mainmenu:textures/btn.png",
             "posX" : 97,
-            "posY" : 40,
+            "posY" : 60,
             "width" : 196,
             "height" : 20,
             imageWidth : 100,
@@ -94,7 +115,7 @@
             "hoverTextColor" : 14483456,
             "texture" : "mainmenu:textures/btn.png",
             "posX" : 97,
-            "posY" : 60,
+            "posY" : 80,
             "width" : 196,
             "height" : 20,
             imageWidth : 100,
