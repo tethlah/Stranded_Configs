@@ -914,14 +914,6 @@
     },
     {
       "drop": {
-        "name": "mysticalagriculture:prosperity_shard",
-        "meta": 0
-      },
-      "chance": 0.08,
-      "meshLevel": 3
-    },
-    {
-      "drop": {
         "name": "bigreactors:dustmetals",
         "meta": 0
       },
@@ -966,14 +958,6 @@
         "meta": 0
       },
       "chance": 0.15,
-      "meshLevel": 4
-    },
-    {
-      "drop": {
-        "name": "mysticalagriculture:prosperity_shard",
-        "meta": 0
-      },
-      "chance": 0.16,
       "meshLevel": 4
     },
     {
