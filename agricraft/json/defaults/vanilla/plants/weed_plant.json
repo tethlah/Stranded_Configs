@@ -9,7 +9,7 @@
     "translations": {},
     "default": "An annoying plant of no use."
   },
-  "growth_chance": 0.9,
+  "growth_chance": 0.45,
   "growth_bonus": 0.025,
   "bonemeal": true,
   "tier": 1,
